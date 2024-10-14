@@ -28,7 +28,7 @@ const FoodItem: React.FC<FoodProps> = ({
 
   const detailScreen = () => {
     router.push({
-      pathname: "/(FoodLinks)FoodDetail",
+      pathname: "/(FoodLinks)/FoodDetail",
       params: { id, name, price, image },
     });
   };
